@@ -9,7 +9,7 @@ import {
   PERIOD_CONFIG,
 } from '@/constants';
 import { CandlestickSeries, createChart, IChartApi, ISeriesApi } from 'lightweight-charts';
-import { fetcher } from '@/lib/coingecko.actions';
+import { fetcher } from '@/lib/coingecko.action';
 import { convertOHLCData } from '@/lib/utils';
 
 const CandlestickChart = ({

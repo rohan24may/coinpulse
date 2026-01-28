@@ -68,7 +68,6 @@ interface CoinMarketData {
 
 interface TrendingCoin {
   item: {
-    price_change_percentage_24h: number;
     id: string;
     name: string;
     symbol: string;
