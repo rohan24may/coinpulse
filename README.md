@@ -1,71 +1,104 @@
-🚀 CoinPulse
+# 🚀 CoinPulse  
+CoinPulse is a modern **crypto tracking dashboard** built with **Next.js App Router**, **TypeScript**, and the **CoinGecko API**.  
+It provides real-time crypto prices, interactive candlestick charts, trending coins, and detailed coin analytics in a clean, production-ready UI.
 
-CoinPulse is a modern crypto tracking web app built with Next.js (App Router).
-It displays live crypto prices, candlestick charts, trending coins, and detailed coin pages using the CoinGecko API.
+![CoinPulse Banner](./public/logo.svg)
 
-Built as a learning + portfolio project with real-world structure and error handling.
+---
 
-✨ Features
+## ⚡️ Preview
+![CoinPulse Homepage](./public/home.png)
 
-📊 Live crypto price overview (Bitcoin & more)
+---
 
-📈 Candlestick (OHLC) charts
+## ✨ Features
+- 📊 **Live Crypto Prices** – Track Bitcoin and other popular coins.
+- 📈 **Candlestick Charts (OHLC)** – Visualize price movements clearly.
+- 🔥 **Trending Coins** – Discover trending assets in real time.
+- 🔍 **Dynamic Coin Pages** – Detailed views with `/coins/[id]` routing.
+- ⚡ **Server Components & Actions** – Optimized performance with Next.js.
+- 🛡️ **Graceful Error Handling** – Handles unsupported coins & API failures.
+- 🎨 **Clean Responsive UI** – Works seamlessly across devices.
 
-🔥 Trending coins section
+---
 
-🔍 Dynamic coin detail pages (/coins/[id])
+## ⚡️ Glimpse
+![CoinPulse Charts](./public/chart.png)
+![CoinPulse Coins](./public/coins.png)
 
-⚡ Server Components & Server Actions
+---
 
-🎨 Clean, reusable UI components
+## 🧑‍💻 Tech Stack
+- **Next.js (App Router)** – Fullstack React framework  
+- **TypeScript** – Type-safe development  
+- **Tailwind CSS** – Modern utility-first styling  
+- **CoinGecko API** – Crypto market data  
+- **Lightweight Charts** – Candlestick chart rendering  
+- **Lucide Icons** – Clean, consistent icons  
 
-🛠 Tech Stack
+---
 
-Next.js (App Router)
+## 💻 Workflow
+![CoinPulse Workflow](./public/features.png)
 
-TypeScript
+---
 
-CoinGecko API (free tier)
+## 🚀 Getting Started  
 
-Tailwind CSS
+Before running CoinPulse, make sure you have the following installed:
 
-Lucide Icons
+### ✅ Node.js & npm
+- Download from [nodejs.org](https://nodejs.org/)
+- Verify installation:
+```bash
+node -v
+npm -v
+📦 Installation
+# Clone the repository
+git clone https://github.com/rohan24may/coinpulse.git
+cd coinpulse
 
-Lightweight Charts
-
-⚙️ Getting Started
-
-Create a .env.local file in the root:
+# Install dependencies
+npm install
+⚙️ Environment Setup
+Create a .env.local file in the root directory:
 
 COINGECKO_BASE_URL=https://api.coingecko.com/api/v3
+Uses the free CoinGecko API (no API key required).
 
-
-Install dependencies:
-
-npm install
-
-
-Run the app:
-
+▶️ Run the App
 npm run dev
-
-
 Open in browser:
 
 http://localhost:3000
-
+📁 Project Structure
+coinpulse/
+├── app/                 # Next.js App Router pages
+│   └── coins/[id]/      # Dynamic coin pages
+├── components/          # UI & chart components
+├── lib/                 # API actions & utilities
+├── hooks/               # Custom hooks
+├── public/              # Static assets
+└── README.md
 ⚠️ Notes
+Uses CoinGecko free tier (rate-limited)
 
-Uses CoinGecko free API (rate-limited)
-
-OHLC charts are historical, not real-time streaming
+Charts show historical OHLC data, not live streaming
 
 Some trending items may be NFTs and are handled safely
 
-👤 Author
+📞 Contact
+Author: Rohan
+GitHub: @rohan24may
 
-Rohan
-Web Developer | Next.js | MERN
-🇮🇳 India
+⭐ If you like this project, consider starring the repo!
 
-If you liked this project, feel free to ⭐ the repo!
+
+---
+
+If you want next, I can:
+- adjust wording for **recruiters**
+- add **badges** (Next.js, TypeScript, Vercel)
+- simplify it to **one-scroll README**
+
+Just tell me 😄
