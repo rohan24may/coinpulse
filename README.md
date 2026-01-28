@@ -6,10 +6,6 @@ It provides real-time crypto prices, interactive candlestick charts, trending co
 
 ---
 
-## ⚡️ Preview
-![CoinPulse Homepage](./public/home.png)
-
----
 
 ## ✨ Features
 - 📊 **Live Crypto Prices** – Track Bitcoin and other popular coins.
