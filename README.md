@@ -18,12 +18,6 @@ It provides real-time crypto prices, interactive candlestick charts, trending co
 
 ---
 
-## ⚡️ Glimpse
-![CoinPulse Charts](./public/chart.png)
-![CoinPulse Coins](./public/coins.png)
-
----
-
 ## 🧑‍💻 Tech Stack
 - **Next.js (App Router)** – Fullstack React framework  
 - **TypeScript** – Type-safe development  
@@ -31,11 +25,6 @@ It provides real-time crypto prices, interactive candlestick charts, trending co
 - **CoinGecko API** – Crypto market data  
 - **Lightweight Charts** – Candlestick chart rendering  
 - **Lucide Icons** – Clean, consistent icons  
-
----
-
-## 💻 Workflow
-![CoinPulse Workflow](./public/features.png)
 
 ---
 
