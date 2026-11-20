@@ -5,8 +5,6 @@ It provides real-time crypto prices, interactive candlestick charts, trending co
 ![CoinPulse Banner](./public/logo.svg)
 
 ---
-
-
 ## ✨ Features
 - 📊 **Live Crypto Prices** – Track Bitcoin and other popular coins.
 - 📈 **Candlestick Charts (OHLC)** – Visualize price movements clearly.
